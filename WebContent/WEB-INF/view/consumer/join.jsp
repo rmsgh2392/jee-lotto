@@ -12,12 +12,14 @@
 <form id=consumer_form  action="<%=request.getContextPath()%>/consumer.do">
 	ID<input type="text" name="cid"/><br/>
 	PW<input type="password" name="pw"/><br/>
+	<input type="hidden" name="action" value="join"/>
+	<input type="hidden" name="dest" value="login"/>
 	<input type="submit" value="전송"/>
 </form>
 
 <script>
 $('#consumer_form').submit(function(){
-	alert('제이쿼리 설정완료 !!');
+	alert('연결완료!!');
 });
 </script>
 </body>
