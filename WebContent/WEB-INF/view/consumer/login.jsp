@@ -12,7 +12,7 @@
 	아이디<input type="text" /><br/>
 	비밀번호<input type="text" /><br/>
 		<input type="hidden" name="action" value="login"/>
-		<input type="hidden" name="dest" value="buy"/>
+		<input type="hidden" name="page" value="buy"/>
 		<input type="submit" value="전송"/>
 	</form>
 	

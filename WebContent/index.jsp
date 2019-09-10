@@ -29,11 +29,11 @@
 <script>
 $('#btn').click(function(){
 	alert('a 바로가기 클릭해!');
-	location.assign('<%=request.getContextPath()%>/consumer.do?action=move&dest=login');
+	location.assign('<%=request.getContextPath()%>/consumer.do?page=login');
 });
 $('#a_join').click(function(){
 	alert('a 바로가기 클릭해!');
-	location.assign('<%=request.getContextPath()%>/consumer.do?action=move&dest=join');
+	location.assign('<%=request.getContextPath()%>/consumer.do?page=join');
 });
 
 </script>

@@ -13,7 +13,7 @@
 	ID<input type="text" name="cid"/><br/>
 	PW<input type="password" name="pw"/><br/>
 	<input type="hidden" name="action" value="join"/>
-	<input type="hidden" name="dest" value="login"/>
+	<input type="hidden" name="page" value="login"/>
 	<input type="submit" value="전송"/>
 </form>
 
